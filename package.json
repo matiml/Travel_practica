@@ -1,0 +1,19 @@
+{
+  "name": "travel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tw:build": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css",
+	  "dev": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css  --watch",
+	  "build": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --minify "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.4",
+    "tailwindcss": "^2.2.19"
+  }
+}
